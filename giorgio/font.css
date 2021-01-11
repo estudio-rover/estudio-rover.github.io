@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Giorgio';
+    src: url('Giorgio.eot');
+    src: url('Giorgio.eot?#iefix') format('embedded-opentype'),
+        url('Giorgio.woff2') format('woff2'),
+        url('Giorgio.woff') format('woff'),
+        url('Giorgio.ttf') format('truetype'),
+        url('Giorgio.svg#Giorgio') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Giorgio';
+    src: url('Giorgio-Thin.eot');
+    src: url('Giorgio-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Giorgio-Thin.woff2') format('woff2'),
+        url('Giorgio-Thin.woff') format('woff'),
+        url('Giorgio-Thin.ttf') format('truetype'),
+        url('Giorgio-Thin.svg#Giorgio-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
