@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
   <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KF5BJ2VDZE"></script>
     <title>Estudio Rover - Foto</title>
@@ -26,53 +26,55 @@
     <meta name="author" content="Alessandro Rabitti - https://alessandrorabitti.com">
   </head>
   <body>
-    <header>
+    <header role="banner">
       <div class="header">
         <div class="logo">
-          <h1><a href="index.html">Estudio Rover</a></h1>
+          <h1 id="site-title"><a href="index.html" aria-label="Página principal de Estudio Rover">Estudio Rover</a></h1>
         </div>
       </div>
     </header>
 
-    <div class="presentation">
-      <section class="container">
-        <div class="title">
-          <h2>Estudio fotográfico</h2>
-          <span class="inline">La imagen que define tu estilo</span>
-        </div>
-        <p>
-          Servicios de fotografía, renta de trajes y disfraces, fotografía de
-          niños, bodas, quince cumpleaños, eventos sociales.
-        </p>
-      </section>
+    <main role="main">
+      <div class="presentation">
+        <section class="container" aria-labelledby="section-title">
+          <div class="title">
+            <h2 id="section-title">Estudio fotográfico</h2>
+            <span class="inline">La imagen que define tu estilo</span>
+          </div>
+          <p>
+            Servicios de fotografía, renta de trajes y disfraces, fotografía de
+            niños, bodas, quince cumpleaños, eventos sociales.
+          </p>
+        </section>
 
-      <div class="assets">
-        <div class="container">
-          <img src="public/images/foto1.png" alt="" />
-          <img src="public/images/foto2.jpg" alt="" />
-          <img src="public/images/foto3.jpg" alt="" />
-          <img src="public/images/foto5.jpg" alt="" />
+        <div class="assets" role="region" aria-label="Galería de fotos">
+          <div class="container">
+            <img src="public/images/foto1.png" alt="Sesión fotográfica de retrato profesional en estudio" tabindex="0" />
+            <img src="public/images/foto2.jpg" alt="Fotografía de celebración de quinceañera con vestido elegante" tabindex="0" />
+            <img src="public/images/foto3.jpg" alt="Sesión fotográfica de boda con pareja sonriente" tabindex="0" />
+            <img src="public/images/foto5.jpg" alt="Fotografía artística en estudio con iluminación profesional" tabindex="0" />
+          </div>
         </div>
+
+        <section class="container section-text" aria-labelledby="photography-title">
+          <div class="title">
+            <h4 id="photography-title">Fotografía que deja huella</h4>
+            <span class="inline">Cada imagen es un instante eterno, una historia contada en un solo cuadro</span>
+          </div>
+          <p>
+            La fotografía no es solo capturar momentos, es darles vida y significado. En <b>Estudio Rover</b>, ofrecemos un servicio profesional y personalizado que abarca desde sesiones artísticas hasta eventos sociales. Retratos, bodas, quince años, fotografía infantil y alquiler de vestuario para sesiones temáticas… cada detalle es tratado con la pasión y el compromiso de inmortalizar la esencia de cada persona.
+          </p>
+          <p>
+            Además, Roberto está inscrito en el <b>RECAC</b> (Registro del Creador Audiovisual y Cinematográfico de Cuba), una certificación que respalda su trayectoria y calidad profesional en el mundo de la imagen.
+          </p>
+          <p>
+            Desde Cuba para el mundo, capturamos momentos que trascienden el tiempo.
+          </p>
+        </section>
       </div>
+    </main>
 
-      <section class="container section-text">
-        <div class="title">
-          <h4>Fotografía que deja huella</h4>
-          <span class="inline">Cada imagen es un instante eterno, una historia contada en un solo cuadro</span>
-        </div>
-        <p>
-          La fotografía no es solo capturar momentos, es darles vida y significado. En <b>Estudio Rover</b>, ofrecemos un servicio profesional y personalizado que abarca desde sesiones artísticas hasta eventos sociales. Retratos, bodas, quince años, fotografía infantil y alquiler de vestuario para sesiones temáticas… cada detalle es tratado con la pasión y el compromiso de inmortalizar la esencia de cada persona.
-        </p>
-        <p>
-          Además, Roberto está inscrito en el <b>RECAC</b> (Registro del Creador Audiovisual y Cinematográfico de Cuba), una certificación que respalda su trayectoria y calidad profesional en el mundo de la imagen.
-        </p>
-        <p>
-          Desde Cuba para el mundo, capturamos momentos que trascienden el tiempo.
-        </p>
-      </section>
-    </div>
-
-    <footer class="container">
+    <footer class="container" role="contentinfo">
       <p>Estudio Rover - &copy; 2025</p>
     </footer>
 

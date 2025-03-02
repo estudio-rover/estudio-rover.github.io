@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
   <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-KF5BJ2VDZE"></script>
     <title>Estudio Rover</title>
@@ -26,167 +26,181 @@
     <meta name="author" content="Alessandro Rabitti - https://alessandrorabitti.com">
   </head>
   <body>
-    <header>
+    <header role="banner">
       <div class="header">
         <div class="logo">
-          <h1><a href="index.html">Estudio Rover</a></h1>
+          <h1><a href="index.html" aria-label="Página principal de Estudio Rover">Estudio Rover</a></h1>
         </div>
       </div>
     </header>
 
-    <div class="presentation">
-      <section class="container section-text">
-        <div class="title">
-          <h3>Estudio Rover: donde la imagen se convierte en arte.</h3>
-        </div>
+    <main role="main">
+      <div class="presentation" aria-labelledby="presentation-title">
+        <section class="container section-text">
+          <div class="title">
+            <h3 id="presentation-title">Estudio Rover: donde la imagen se convierte en arte.</h3>
+          </div>
+        </section>
+
+        <div class="home">
+          <div class="home-blocks-wrapper">
+            <div class="home-blocks">
+              <a href="foto.html" class="home-block" aria-label="Ir a sección de fotografía" tabindex="0">
+                <img src="public/images/home_foto.jpg" alt="Estudio Rover - Foto" />
+                <span>Foto</span>
+              </a>
+              <a href="video.html" class="home-block" aria-label="Ir a sección de video" tabindex="0">
+                <img src="public/images/home_video.jpg" alt="Andriago Films - Video" />
+                <span>Video</span>
+              </a>
+            </div>
+          </div>
+      </div>
+      <section class="container section-text" role="region" aria-label="Sobre nosotros">
+        <p>
+          Luces. Cámara. Emoción. Cada foto, cada toma… una historia que merece ser contada.
+        </p>
+        <p>
+          En 2016, <b>Roberto Luis Carmona Muñoz</b> decidió arriesgarlo todo. Dejando atrás la seguridad de un trabajo estable, siguió su verdadera pasión: la fotografía. Así nació <a href="foto.html" aria-label="Ir a sección de Estudios Rover fotografía">Estudios Rover</a>, un espacio donde la luz y el encuadre se convirtieron en su lenguaje. La magia de capturar instantes lo llevó a descubrir una nueva dimensión: el cine.
+        </p>
+        <p>
+          En 2018, dio el siguiente paso y fundó <a href="video.html" aria-label="Ir a sección de Andariego Films video">Andariego Films</a>, una productora dedicada al video y al cine. Aquí, la imagen cobra vida, el movimiento cuenta historias y cada proyecto se convierte en una experiencia cinematográfica.
+        </p>
+        <p>
+          Hoy, Rover fusiona la potencia de la fotografía con la narrativa del cine para crear imágenes que impactan y relatos que dejan huella. Su trabajo ha cruzado fronteras, colaborando con clientes y proyectos a nivel internacional.
+        </p>
+        <p>
+          Desde Cuba para el mundo. Creemos en la magia de la imagen. ¿Listo para brillar?
+        </p>
       </section>
 
-      <div class="home">
-        <div class="home-blocks-wrapper">
-          <div class="home-blocks">
-            <a href="foto.html" class="home-block">
-              <img src="public/images/home_foto.jpg" alt="Estudio Rover - Foto" />
-              <span>Foto</span>
-            </a>
-            <a href="video.html" class="home-block">
-              <img src="public/images/home_video.jpg" alt="Andriago Films - Video" />
-              <span>Video</span>
-            </a>
+        <div class="contacts-wrapper container" role="region" aria-labelledby="contacts-heading">
+          <div class="title">
+            <h2 id="contacts-heading">Contactos</h2>
+            <div class="contacts">
+              <div class="contact">
+                <p>
+                  <a href="tel:+5353008448" aria-label="Llamar al teléfono (53) 53008448" tabindex="0">
+                    Teléfono:<br />(53) 53008448
+                  </a>
+                </p>
+                <p>
+                  <a href="mailto:rover.carmona1@gmail.com" aria-label="Enviar email a rover.carmona1 @ gmail.com" tabindex="0">
+                    Email:<br />rover.carmona1 @ gmail.com
+                  </a>
+                </p>
+              </div>
+              <div class="contact">
+                <p>
+                  Calle 399 # 17819a/178 y 180<br />
+                  Reparto Villanueva<br />
+                  Santiago de Las Vegas,<br />La Habana<br />
+                  Cuba
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-    </div>
+      </div>
 
-    <section class="container section-text">
-      <p>
-        Luces. Cámara. Emoción. Cada foto, cada toma… una historia que merece ser contada.
-      </p>
-      <p>
-        En 2016, <b>Roberto Luis Carmona Muñoz</b> decidió arriesgarlo todo. Dejando atrás la seguridad de un trabajo estable, siguió su verdadera pasión: la fotografía. Así nació <a href="foto.html">Estudios Rover</a>, un espacio donde la luz y el encuadre se convirtieron en su lenguaje. La magia de capturar instantes lo llevó a descubrir una nueva dimensión: el cine.
-      </p>
-      <p>
-        En 2018, dio el siguiente paso y fundó <a href="video.html">Andariego Films</a>, una productora dedicada al video y al cine. Aquí, la imagen cobra vida, el movimiento cuenta historias y cada proyecto se convierte en una experiencia cinematográfica.
-      </p>
-      <p>
-        Hoy, Rover fusiona la potencia de la fotografía con la narrativa del cine para crear imágenes que impactan y relatos que dejan huella. Su trabajo ha cruzado fronteras, colaborando con clientes y proyectos a nivel internacional.
-      </p>
-      <p>
-        Desde Cuba para el mundo. Creemos en la magia de la imagen. ¿Listo para brillar?
-      </p>
-    </section>
+      <div class="map-wrapper" role="region" aria-label="Ubicación">
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14693.577293219903!2d-82.3830353!3d22.9725229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x76e0856d59a3b33a!2sEstudio%20Rover%20foto%20y%20video!5e0!3m2!1sit!2snl!4v1619965318423!5m2!1sit!2snl"
+            width="1000"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            title="Ubicación de Estudio Rover en Google Maps"
+            aria-label="Mapa mostrando la ubicación de Estudio Rover en Santiago de Las Vegas, La Habana, Cuba"
+          ></iframe>
+        </div>
+      </div>
 
+      <div class="presentation">
+        <div class="sn-wrapper container" role="region" aria-labelledby="social-heading">
+          <div class="title">
+            <h2 id="social-heading">Redes Sociales</h2>
 
-      <div class="contacts-wrapper container">
-        <div class="title">
-          <h2>Contactos</h2>
-          <div class="contacts">
-            <div class="contact">
-              <p>
-                <a href="tel:+5353008448">
-                  Teléfono:<br />(53) 53008448
+            <div class="sn">
+              <div class="sn-item">
+                <a
+                  class="sn-item-link"
+                  href="https://www.facebook.com/profile.php?id=100013199673135"
+                  target="_blank"
+                  aria-label="Visitar perfil de Estudio Rover en Facebook"
+                  tabindex="0"
+                >
+                  <img src="public/icons/facebook.svg" alt="Estudio fotográfico Facebook" />
+                  Estudio Rover Facebook
                 </a>
-              </p>
-              <p>
-                <a href="mailto:rover.carmona1@gmail.com">
-                  Email:<br />rover.carmona1 @ gmail.com
+              </div>
+              <div class="sn-item">
+                <a
+                  class="sn-item-link"
+                  href="https://www.facebook.com/andariegofilms/"
+                  target="_blank"
+                  aria-label="Visitar perfil de Andariego Films en Facebook"
+                  tabindex="0"
+                >
+                  <img src="public/icons/facebook.svg" alt="Andariego Films Facebook" />
+                  Andariego Films Facebook
                 </a>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                Calle 399 # 17819a/178 y 180<br />
-                Reparto Villanueva<br />
-                Santiago de Las Vegas,<br />La Habana<br />
-                Cuba
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="map-wrapper">
-      <div class="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14693.577293219903!2d-82.3830353!3d22.9725229!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x76e0856d59a3b33a!2sEstudio%20Rover%20foto%20y%20video!5e0!3m2!1sit!2snl!4v1619965318423!5m2!1sit!2snl"
-          width="1000"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-      </div>
-    </div>
-
-    <div class="presentation">
-      <div class="sn-wrapper container">
-        <div class="title">
-          <h2>Redes Sociales</h2>
-
-          <div class="sn">
-            <div class="sn-item">
-              <a
-                class="sn-item-link"
-                href="https://www.facebook.com/profile.php?id=100013199673135"
-                target="_blank"
-              >
-                <img src="public/icons/facebook.svg" alt="Estudio fotográfico Facebook" />
-                Estudio Rover Facebook
-              </a>
-            </div>
-            <div class="sn-item">
-              <a
-                class="sn-item-link"
-                href="https://www.facebook.com/andariegofilms/"
-                target="_blank"
-              >
-                <img src="public/icons/facebook.svg" alt="Andariego Films Facebook" />
-                Andariego Films Facebook
-              </a>
-            </div>
-            <div class="sn-item">
-              <a
-                class="sn-item-link"
-                href="https://youtube.com/@andariegofilms627?si=3qGuX6psXGKBavZb"
-                target="_blank"
-              >
-                <img src="public/icons/youtube.svg" alt="Andariego Films YouTube" />
-                Andariego Films YouTube
-              </a>
-            </div>
-            <div class="sn-item">
-              <a
-                class="sn-item-link"
-                href="https://youtube.com/@andariegoshorts?si=DlS-64WkNulEeVi6"
-                target="_blank"
-              >
-                <img src="public/icons/youtube.svg" alt="Andariego Shorts YouTube" />
-                Andariego Shorts YouTube
-              </a>
-            </div>
-            <div class="sn-item">
-              <a
-                class="sn-item-link"
-                href="https://www.linkedin.com/company/estudio-rover/"
-                target="_blank"
-              >
-                <img src="public/icons/linkedin.svg" alt="Estudio Rover Linkedin" />
-                Estudio Rover Linkedin
-              </a>
-            </div>
-            <div class="sn-item">
-              <a
-                class="sn-item-link"
-                href="https://www.linkedin.com/company/andariego-films/"
-                target="_blank"
-              >
-                <img src="public/icons/linkedin.svg" alt="Andariego Linkedin" />
-                Andariego Linkedin
-              </a>
+              </div>
+              <div class="sn-item">
+                <a
+                  class="sn-item-link"
+                  href="https://youtube.com/@andariegofilms627?si=3qGuX6psXGKBavZb"
+                  target="_blank"
+                  aria-label="Ver canal de YouTube de Andariego Films"
+                  tabindex="0"
+                >
+                  <img src="public/icons/youtube.svg" alt="Andariego Films YouTube" />
+                  Andariego Films YouTube
+                </a>
+              </div>
+              <div class="sn-item">
+                <a
+                  class="sn-item-link"
+                  href="https://youtube.com/@andariegoshorts?si=DlS-64WkNulEeVi6"
+                  target="_blank"
+                  aria-label="Ver canal de YouTube Shorts de Andariego"
+                  tabindex="0"
+                >
+                  <img src="public/icons/youtube.svg" alt="Andariego Shorts YouTube" />
+                  Andariego Shorts YouTube
+                </a>
+              </div>
+              <div class="sn-item">
+                <a
+                  class="sn-item-link"
+                  href="https://www.linkedin.com/company/estudio-rover/"
+                  target="_blank"
+                  aria-label="Visitar perfil de LinkedIn de Estudio Rover"
+                  tabindex="0"
+                >
+                  <img src="public/icons/linkedin.svg" alt="Estudio Rover Linkedin" />
+                  Estudio Rover Linkedin
+                </a>
+              </div>
+              <div class="sn-item">
+                <a
+                  class="sn-item-link"
+                  href="https://www.linkedin.com/company/andariego-films/"
+                  target="_blank"
+                  aria-label="Visitar perfil de LinkedIn de Andariego Films"
+                  tabindex="0"
+                >
+                  <img src="public/icons/linkedin.svg" alt="Andariego Linkedin" />
+                  Andariego Linkedin
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
 
     <footer class="container">
       <p>Estudio Rover - &copy; 2025</p>
