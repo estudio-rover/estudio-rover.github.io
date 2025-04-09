@@ -309,6 +309,10 @@ footer p {
 		line-height: 1.2em;
 	}
 }
+q.inline {
+	display: block;
+	margin-bottom: 1em;
+}
 .image {
 	display: inline-block;
 }
